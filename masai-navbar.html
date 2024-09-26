@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Navbar</title>
+    <style>
+       .main-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+       }
+       .logo {
+        width: 110px;
+       }
+       nav ul {
+        display: flex;
+        gap: 25px;
+        list-style-type: none;
+       }
+       select{
+        border: none;
+       }
+       .button1 {
+        padding: 8px;
+        margin-top: -10px;
+        cursor: pointer;
+        background-color: rgb(233, 247, 252);
+        border: none;
+        border-radius: 5px;
+        color: rgb(113, 113, 255);
+       }
+       .button2 {
+        padding: 8px;
+        margin-top: -10px;
+        cursor: pointer;
+        border: none;
+        color: red;
+        border: 1px solid red;
+        border-radius: 5px;
+       }
+       .button2:hover {
+        background-color: rgb(253, 232, 232);
+       }
+       .button1:hover {
+        background-color: rgb(217, 242, 251);
+       }
+       .red:hover {
+        color: #fb3445;
+        cursor: pointer;
+       }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main-box"> 
+            <img
+            class="logo"
+            src="https://cdn.masaischool.com/masai-website/Masai_Logo_dark_web_b21aab8c62.webp"/>
+            <nav>
+                <ul>
+                    <li>
+                        <select class="red">
+                            <option value="courses">COURSES</option>
+                        </select>
+                    </li>
+                    <li class="red">FEES & ISA</li>
+                    <li class="red">ABOUTS US</li>
+                    <li class="red">HIRE FROM US</li>
+                    <li class="red">FAQ</li>
+                    <li class="red">EVENTS</li>
+                    <li ><button class="button1">REFER & EARN</button></li>
+                    <li><button class="button2">LOGIN</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>
